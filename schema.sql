@@ -13,3 +13,5 @@ CREATE TABLE Orders (
 
     FOREIGN KEY (UserId) REFERENCES Users(Id)
 );
+
+ALTER TABLE Users ADD Phone NVARCHAR(20);
